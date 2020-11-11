@@ -1,0 +1,150 @@
+body
+{
+    margin: 0%;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* 
+header
+*/
+
+.header
+{
+    background-image: url(img/06.jpg);
+    text-align: center;
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+
+     position: relative;
+     top: 0%;
+     left: 0%;
+     z-index: 0;
+}
+
+.layerimg
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.imgtxt
+{
+
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px;
+
+    
+}
+
+.imgtxt2
+{
+
+display: inline-block;
+color: rgb(241, 185, 0);
+
+
+   
+}
+
+#imgtxt0
+{
+
+    text-align:left;
+    position: relative;
+    top: 35%;
+    left: 9%;
+    color: white;
+    width: 50%;
+    height: 50%;
+   
+
+}
+
+
+/* 
+element 2
+*/
+
+.clkme
+{
+    background-color: rgb(28, 117, 6);
+    height: 70px;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 45px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#txth2
+{
+   /*  background-color: rgb(93, 102, 238);
+    text-align: center;
+    height: 100px;
+    vertical-align: middle; */
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+table
+{
+    background-color: rgb(110, 110, 138);
+    color: white;
+    
+}
+
+thead
+{
+    color: white;
+}
+
+
+.nom
+{
+    font-size: 50;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page-footer
+{
+    background-color: rgb(210, 219, 87);
+}

@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+
+</head>
+
+
+<body>
+
+    <!-- header -->
+
+  <div class="header">  
+    
+    
+        <div class="layerimg"></div>
+        
+        <div class="container" id="imgtxt0">
+
+            <h1 class="imgtxt"><p class="imgtxt2">Travel</p> See the world </h1>
+        
+            <p class="ni">Lorem ipsum dolor sit amet consectetur,
+            consequatur voluptates cupiditate eligendi voluptate recusandae accusantium,.
+            </p>
+        
+        </div>
+      
+      
+    </div>
+
+
+    <div class="container">
+        <div class="" id="txth2"></div>
+
+        <ul class="" id="list"></ul>
+    </div>
+
+    <!-- click me btn -->
+
+    <div class="container clkme">
+        <a onclick="clickme()" id="555">click me </a>
+    </div>
+
+
+        <!-- form -->
+
+   <div class="container py3" id="form">
+       
+
+    <h4 class="nom">Add product to the table</h4>
+
+        <div class="form-group ">
+            <label for=""> product name : </label>
+            <input id="productNameInput" type="text" class="form-control required" placeholder="">
+
+        </div>
+
+        <div class="form-group">
+            <label for=""> number : </label>
+            <input id="productNumberInput" type="text" class="form-control" placeholder="">
+
+        </div>
+
+        <div class="form-group">
+            <label for=""> item price : </label>
+            <input id="productPriceInput" type="text" class="form-control" placeholder="">
+
+        </div>
+
+        
+        <button onclick="clearForm()" class="btn btn-danger mt-3 ml-4 float-right"> Reset </button>
+
+        <button onclick="addproduct()" class="btn btn-outline-success mt-3 float-right"> Add product </button>
+
+        <div class="clearfix"></div>
+
+   </div>
+
+
+   <h4 class="nom">section data</h4>
+
+    <!-- table -->
+
+ <table class="table w-75 m-auto table-striped " id="table1">
+     <thead>
+
+         <th>#</th>
+         <th>Product Name</th>
+         <th>Numbers</th>
+         <th>item price</th>
+         <th>Total price</th>
+         <th>Action</th>
+
+     </thead>
+
+     <tbody id="tableBody">
+
+
+        
+     </tbody>
+
+ </table>
+
+
+ <footer class="page-footer font-small">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">copy Rights reservied
+      <a href="https://mohamed abdel-samie.com/"> mohamed abdel-samie</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
